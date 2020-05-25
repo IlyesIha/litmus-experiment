@@ -32,3 +32,6 @@ spec:
             # provide the total chaos duration
             - name: TOTAL_CHAOS_DURATION
               value: '20'
+            # turn the gather_facts down in ansible
+            - name: DEFAULT_GATHERING
+              value: "explicit"
